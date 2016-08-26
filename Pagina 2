@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Plantilla básica de Bootstrap</title>
+
+    <!-- CSS de Bootstrap -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <!-- librerías opcionales que activan el soporte de HTML5 para IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+         #columna{
+
+         background-color:black;
+         }
+
+    </style>
+  </head>
+  <body>
+  <div class="container">
+  <h1>¡¡Hola mundo!!</h1>
+      <div class="row">
+           <div class="col-xs-10"  id="columna">
+           <img class="center-block img-responsive img-circle "  img src="nike.jpeg">
+           <p>Es un lenguaje de programaci&oacuten interpretado, dialecto del est&aacutendar ECMAScript.
+              Se define como orientado a objetos, basado en prototipos, imperativo, d&eacutebilmente tipado y din&aacutemico.</p>
+           </div>
+
+      </div>
+  </div>
+    <!-- Librería jQuery requerida por los plugins de JavaScript -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+
+    <!-- Todos los plugins JavaScript de Bootstrap (también puedes
+         incluir archivos JavaScript individuales de los únicos
+         plugins que utilices) -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

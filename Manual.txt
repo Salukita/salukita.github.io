@@ -1,0 +1,12 @@
+%Manual de HTML
+%María de la Salud
+%Agosto, 2016
+Presentaci&oacuten
+============
+Este Manual contiene el material del curso **aplicaciones modernas** de HTML
+1._HTML Y DOM
+2.-Librerias JAVASCRIPT    
+  *nodejs
+  *jquery
+  *Jade
+  *Pandoc
